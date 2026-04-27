@@ -20,32 +20,32 @@
     <td align="center"><strong>官网首页</strong></td>
   </tr>
   <tr>
-    <td><a href="public/screenshots/01-homepage.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/01-homepage.jpeg"/></svg></a></td>
-    <td><a href="public/screenshots/02-homepage-full.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/02-homepage-full.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/01-homepage.jpeg" target="_blank"><img src="public/screenshots/01-homepage.jpeg" width="380" height="380" alt="文章列表"></a></td>
+    <td><a href="public/screenshots/02-homepage-full.jpeg" target="_blank"><img src="public/screenshots/02-homepage-full.jpeg" width="380" height="380" alt="官网首页"></a></td>
   </tr>
   <tr>
     <td align="center"><strong>文章详情</strong></td>
     <td align="center"><strong>后台管理登录</strong></td>
   </tr>
   <tr>
-    <td><a href="public/screenshots/03-admin-login.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/03-admin-login.jpeg"/></svg></a></td>
-    <td><a href="public/screenshots/04-admin-dashboard.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/04-admin-dashboard.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/03-admin-login.jpeg" target="_blank"><img src="public/screenshots/03-admin-login.jpeg" width="380" height="380" alt="文章详情"></a></td>
+    <td><a href="public/screenshots/04-admin-dashboard.jpeg" target="_blank"><img src="public/screenshots/04-admin-dashboard.jpeg" width="380" height="380" alt="后台管理登录"></a></td>
   </tr>
   <tr>
     <td align="center"><strong>后台管理</strong></td>
     <td align="center"><strong>暗色模式</strong></td>
   </tr>
   <tr>
-    <td><a href="public/screenshots/05-article-editor.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/05-article-editor.jpeg"/></svg></a></td>
-    <td><a href="public/screenshots/06-article-list.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/06-article-list.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/05-article-editor.jpeg" target="_blank"><img src="public/screenshots/05-article-editor.jpeg" width="380" height="380" alt="后台管理"></a></td>
+    <td><a href="public/screenshots/06-article-list.jpeg" target="_blank"><img src="public/screenshots/06-article-list.jpeg" width="380" height="380" alt="暗色模式"></a></td>
   </tr>
   <tr>
     <td align="center"><strong>角色权限</strong></td>
     <td align="center"><strong>移动端</strong></td>
   </tr>
   <tr>
-    <td><a href="public/screenshots/07-dark-mode.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/07-dark-mode.jpeg"/></svg></a></td>
-    <td><a href="public/screenshots/08-category-management.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/08-category-management.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/07-dark-mode.jpeg" target="_blank"><img src="public/screenshots/07-dark-mode.jpeg" width="380" height="380" alt="角色权限"></a></td>
+    <td><a href="public/screenshots/08-category-management.jpeg" target="_blank"><img src="public/screenshots/08-category-management.jpeg" width="380" height="380" alt="移动端"></a></td>
   </tr>
 </table>
 
