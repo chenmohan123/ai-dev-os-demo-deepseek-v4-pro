@@ -1,0 +1,3 @@
+[submodule ".ai-dev-os"]
+	path = .ai-dev-os
+	url = https://github.com/chenmohan123/.ai-dev-os
