@@ -1,4 +1,4 @@
-> 本项目由 **DeepSeek v4 Pro** 使用 `.ai-dev-os` 基于 `PROMPT.md` 提示词自动生成。
+> 本项目由 **DeepSeek v4 Pro** 使用 [.ai-dev-os](https://github.com/chenmohan123/.ai-dev-os) 基于 `PROMPT.md` 提示词自动生成，仅用于演示生成效果，并不保证代码质量和安全性。请勿直接用于生产环境，使用前请务必进行全面审查和测试。
 
 # DevHub CMS — 现代内容管理系统
 
@@ -9,6 +9,45 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-3-06b6d4?logo=tailwindcss)
 ![Prisma](https://img.shields.io/badge/Prisma-5-2d3748?logo=prisma)
 ![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite)
+
+## 截图预览
+
+点击任意缩略图查看完整尺寸。
+
+<table>
+  <tr>
+    <td align="center"><strong>文章列表</strong></td>
+    <td align="center"><strong>官网首页</strong></td>
+  </tr>
+  <tr>
+    <td><a href="public/screenshots/01-homepage.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/01-homepage.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/02-homepage-full.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/02-homepage-full.jpeg"/></svg></a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>文章详情</strong></td>
+    <td align="center"><strong>后台管理登录</strong></td>
+  </tr>
+  <tr>
+    <td><a href="public/screenshots/03-admin-login.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/03-admin-login.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/04-admin-dashboard.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/04-admin-dashboard.jpeg"/></svg></a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>后台管理</strong></td>
+    <td align="center"><strong>暗色模式</strong></td>
+  </tr>
+  <tr>
+    <td><a href="public/screenshots/05-article-editor.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/05-article-editor.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/06-article-list.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/06-article-list.jpeg"/></svg></a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>角色权限</strong></td>
+    <td align="center"><strong>移动端</strong></td>
+  </tr>
+  <tr>
+    <td><a href="public/screenshots/07-dark-mode.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/07-dark-mode.jpeg"/></svg></a></td>
+    <td><a href="public/screenshots/08-category-management.jpeg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380"><image width="100%" height="100%" preserveAspectRatio="xMidYMid slice" href="public/screenshots/08-category-management.jpeg"/></svg></a></td>
+  </tr>
+</table>
 
 ## 功能概览
 
