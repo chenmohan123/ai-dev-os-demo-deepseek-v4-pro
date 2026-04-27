@@ -1,0 +1,107 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String    @id @default(cuid())
+  name      String
+  email     String    @unique
+  password  String
+  avatar    String?
+  roleId    String
+  role      Role      @relation(fields: [roleId], references: [id])
+  status    Int       @default(1)
+  articles  Article[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([roleId])
+  @@map("users")
+}
+
+model Role {
+  id          String           @id @default(cuid())
+  name        String           @unique
+  description String?
+  users       User[]
+  permissions RolePermission[]
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@map("roles")
+}
+
+model Permission {
+  id          String           @id @default(cuid())
+  name        String
+  code        String           @unique
+  description String?
+  roles       RolePermission[]
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@map("permissions")
+}
+
+model RolePermission {
+  roleId       String
+  permissionId String
+  role         Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission   Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+  @@map("role_permissions")
+}
+
+model Category {
+  id        String            @id @default(cuid())
+  name      String
+  slug      String
+  parentId  String?
+  parent    Category?         @relation("CategoryTree", fields: [parentId], references: [id])
+  children  Category[]        @relation("CategoryTree")
+  sort      Int               @default(0)
+  articles  ArticleCategory[]
+  createdAt DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+
+  @@unique([slug, parentId])
+  @@index([parentId])
+  @@map("categories")
+}
+
+model Article {
+  id         String            @id @default(cuid())
+  title      String
+  slug       String            @unique
+  content    String
+  summary    String?
+  coverImage String?
+  status     Int               @default(0)
+  seoTitle   String?
+  authorId   String
+  author     User              @relation(fields: [authorId], references: [id])
+  categories ArticleCategory[]
+  createdAt  DateTime          @default(now())
+  updatedAt  DateTime          @updatedAt
+
+  @@index([status, createdAt])
+  @@index([authorId])
+  @@map("articles")
+}
+
+model ArticleCategory {
+  articleId  String
+  categoryId String
+  article    Article  @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([articleId, categoryId])
+  @@index([categoryId])
+  @@map("article_categories")
+}
